@@ -1,0 +1,87 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #00FF00;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.banner {
+    background-color: #000;
+    color: #00FF00;
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: 2px solid #00FF00;
+}
+
+.container {
+    display: flex;
+    min-height: calc(100vh - 80px); /* Adjust depending on header and footer height */
+}
+
+nav.navigation {
+    width: 20%;
+    background-color: #111;
+    padding: 1em;
+    border-right: 2px solid #00FF00;
+}
+
+nav.navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav.navigation ul li {
+    margin-bottom: 1em;
+}
+
+nav.navigation ul li a {
+    text-decoration: none;
+    color: #00FF00;
+    font-weight: bold;
+}
+
+nav.navigation ul li a:hover {
+    color: #33FF33;
+}
+
+main.content {
+    width: 80%;
+    padding: 1em;
+}
+
+footer.footer {
+    background-color: #000;
+    color: #00FF00;
+    text-align: center;
+    padding: 1em 0;
+    border-top: 2px solid #00FF00;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    nav.navigation, main.content {
+        width: 100%;
+    }
+}
+
+/* Terminal-like blinking cursor effect */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+h1::after,
+h2::after,
+p::after {
+    content: '|';
+    animation: blink 1s infinite;
+    color: #00FF00;
+    margin-left: 5px;
+}
+
