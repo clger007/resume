@@ -5,7 +5,8 @@
 
 ## Education 
 - Ph.D., System Engineering | Concordia University (_Aug 2022_)								       		
-- M.S., Information Technology, Business Information Systems	| Monash University (_December 2015_)	 			        		
+- M.S., Information Technology | Monash University (_December 2015_)
+- M.S., Business Information Systems | Monash University (_December 2015_) 		
 - B.S., Computer Science | The University of Texas at Dallas (_July 2012_)
 
 ## Work Experience
