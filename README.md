@@ -28,7 +28,6 @@
 
 ## Projects
 ### Data-Driven Surgical-site Infection Identification with XGBoost
-[Publication](https://aricjournal.biomedcentral.com/articles/10.1186/s13756-023-01294-0)
 
 Developed a pipeline to identify surgical-site infections from EMRs, using data labeled by the Provincial Infection Control Group. EMR data was extracted via **SQL**, cleaned with **Python**, and preprocessed using NLP techniques. Features were extracted with **Scikit-Learn**, and an **XGBoost** model addressed data imbalance with undersampling and **SMOTE**. The model showed promising results across key evaluation metrics.
 
