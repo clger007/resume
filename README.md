@@ -1,4 +1,4 @@
-# Cheligeer (Ken) Cheligeer
+# Ken Cheligeer
 ## Data Scientist, Machine Learning Engineer, Researcher
 
 #### Technical Skills: Python, Snowflake, SQL, Machine Learning, Deep Learning, Natural Language Processing
