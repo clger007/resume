@@ -1,83 +1,70 @@
-# Data Scientist
+# Cheligeer (Ken) Cheligeer
+## Data Scientist
 
-#### Technical Skills: Python, Snowflake
+#### Technical Skills: Python, Snowflake, SQL, Machine Learning, Deep Learning, Natural Language Processing
+
 ## Education 
-
 - Ph.D., System Engineering | Concordia University (_Aug 2022_)								       		
 - M.S., Information Technology, Business Information Systems	| Monash University (_December 2015_)	 			        		
-- B.S., Computer Science | The University of Texas at Dallas (_July_2012_)
+- B.S., Computer Science | The University of Texas at Dallas (_July 2012_)
+
 ## Work Experience
-Data Scientist @ Alberta Health Services (_Spet 2022 - Present_)**
+**Data Scientist @ Alberta Health Services (_Sept 2022 - Present_)**
 - Led and executed multiple initiatives, including Deep Neural Networks and Large Language Models (LLM), to understand and analyze Electronic Medical Records (EMRs) for various downstream tasks, such as disease identification, adverse event detection, clinical note summarizing, and automated medical code generation.
 - Provided consultancy on applying machine learning, deep learning, and NLP strategies, pivotal in integrating state-of-the-art AI technologies into healthcare analytics practices, enhancing system-wide operational efficiency and data-driven innovations.
+- Spearheaded the development and implementation of machine learning and deep learning algorithms, specializing in the extraction and interpretation of complex information from electronic medical record (EMR) text data, with a focus on improving patient care and treatment outcomes.
+- Conducted comprehensive analysis of large-scale hospital administrative and cancer registry datasets, employing advanced machine learning techniques to uncover patterns, trends, and insights that inform clinical decision-making and healthcare policy development.
 
-Data Scientist @ Center for Health Informatics (_Spet 2021 - Present_)**
-- Conducted data collection, processing, and analysis for novel studies evaluating the validities of EMR note data and LLMs on identifying Hospital Adverse Events
+**Data Scientist @ Center for Health Informatics, University of Calgary (_Sept 2021 - Present_)**
+- Conducted data collection, processing, and analysis for novel studies evaluating the validities of EMR note data and LLMs on identifying Hospital Adverse Events.
+- Develop and implement machine learning and deep learning algorithms to extract information from electronic medical record (EMR) text data.
+- Analyze large hospital administrative datasets using machine learning techniques to identify patterns and trends in desired outcome.
+- Collaborate with healthcare professionals (epidemiologists) to understand and address healthcare domain requirements and challenges and translate them to feasible machine learning problems.
 
+**Faculty Member @ Hohhot Minzu University, Inner Mongolia, China (_Sept 2016 - Sept 2018_)**
+- Taught courses in Data Structure and Algorithm Analysis, Website Development and Front-end Programming, and Practical Computer Programming.
+- Participated in a project to train Mongolian Language Models using artificial neural networks.
+- Managed university's high performance computing lab and helped researchers to deploy their algorithms.
 
 ## Projects
-
 ### Data-Driven Surgical-site Infection Identification with XGBoost
 [Publication](https://aricjournal.biomedcentral.com/articles/10.1186/s13756-023-01294-0)
 
 Developed a pipeline to identify surgical-site infections from EMRs, using data labeled by the Provincial Infection Control Group. EMR data was extracted via **SQL**, cleaned with **Python**, and preprocessed using NLP techniques. Features were extracted with **Scikit-Learn**, and an **XGBoost** model addressed data imbalance with undersampling and **SMOTE**. The model showed promising results across key evaluation metrics.
 
+### Using LLMs for Interpretation and Reasoning of Pathology Reports
+- Pioneered the use of Large Language Models (LLMs) such as GPT-3.5/4 to interpret pathology reports, significantly enhancing the determination of complete pathological responses (pCR) and thus the accuracy of cancer treatment assessments.
+- Developed a secure framework for processing de-identified reports and implemented an additional in-house pipeline for analyzing original pathology reports with a locally deployed LLM, addressing patient and physician privacy concerns.
+- Employed the Low-Rank Adaptation (LoRA) technique to fine-tune transformer-based models, achieving a substantial increase in model performance with 91% Sensitivity and 95% Positive Predictive Value (PPV) on a chart review dataset.
 
+### Estimating Cancer Diagnostic Interval Using Deep Learning Method
+- Orchestrated the design and implementation of a Convolutional Neural Network (CNN) to analyze care patterns, achieving effective classification of four major cancer types and advancing early detection efforts.
+- Tailored the CNN to identify nuanced patterns in patient visits, integrating visit type and timing to uncover early indicators of cancer, thereby contributing to potential improvements in diagnostic timeliness.
 
+## Skills & Abilities
+- **Machine Learning**: Expert in-depth knowledge of machine learning and deep learning principles, with practical experience in applying these techniques to healthcare data analysis and predictive modeling.
+- **Natural Language Processing (NLP)**: Expert in NLP, with a focus on extracting clinical insights from unstructured healthcare data, including EMR text analysis and medical literature review.
+- **Programming & Software Development**: Expert in Python and its data-centric frameworks, with a robust foundation in object-oriented programming. Proficient in SQL and NoSQL databases, with hands-on experience in data warehousing solutions like Snowflake.
+- **Communication**: Strong skills in delivering clear presentations, writing concise reports, and data visualization. Adept at collaborating with cross-functional teams and facilitating effective communication channels.
 
-===================below is example=================
-# Data Scientist
+## Selected Publications
+1. Cheligeer, C., Wu, G., Lee, S., et al. (2023). Using a Neural Network-based Language Understanding Model to Identify Inpatient Falls from Electronic Medical Records. JMIR Medical Informatics. Preprint.
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+2. Cheligeer, C., Huang, J., Wu, G., Bhuiyan, N., Xu, Y., & Zeng, Y. (2022). Machine learning in requirements elicitation: a literature review. AI EDAM, 36, e32.
 
-## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+3. Cheligeer, C., Wu, G., Xie, J., Chen, E., Quan, M. L., Cheung, W., & Xu, Y. (2023). The use of new primary cancer screening among stage IV cancer patients in Alberta: A population-based real-world study. Paper presented at Applied Research in Cancer Control, 2023.
 
-## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+4. Cheligeer, C., Quan, M. L., Cheung, W., & Xu, Y. (2023). Estimating cancer diagnostic interval using deep learning method based on population-based real-world health data. Paper presented at the Canadian Cancer Research Conference.
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+5. Cheligeer, C., Yang, J., Bayatpour, A., Miklin, A., Dufresne, S., Lin, L., ... & Zeng, Y. (2023). A Hybrid Semantic Networks Construction Framework for Engineering Design. Journal of Mechanical Design, 145(4), 041405.
 
-## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+6. Cheligeer, C., Yang, L., Nandi, T., Doktorchik, C., Quan, H., Zeng, Y., & Singh, S. (2023). Natural language processing (NLP) aided qualitative method in health research. Journal of Integrated Design and Process Science, 27(1), 41-58.
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+7. Wu, G., Cheligeer, C., Southern, D. A., Martin, E. A., Xu, Y., Leal, J., ... & Eastwood, C. A. (2023). Development of machine learning models for the detection of surgical site infections following total hip and knee arthroplasty: a multicenter cohort study. Antimicrobial Resistance & Infection Control, 12(1), 88.
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+8. Wu, G., Cheligeer, C., Brisson, A. M., Quan, M. L., Cheung, W. Y., Brenner, D., ... & Xu, Y. (2023). A New Method of Identifying Pathologic Complete Response After Neoadjuvant Chemotherapy for Breast Cancer Patients Using a Population-Based Electronic Medical Record System. Annals of Surgical Oncology, 30(4), 2095-2103.
 
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
+9. Wu, G., Khair, S., Yang, F., Cheligeer, C., Southern, D., Zhang, Z., ... & Eastwood, C. A. (2022). Performance of machine learning algorithms for surgical site infection case detection and prediction: A systematic review and meta-analysis. Annals of Medicine and Surgery, 104956.
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
+10. Sandhu, N., Whittle, S., Southern, D., Li, B., Youngson, E., Bakal, J., Mcleod, C., Hilderman, L., Williamson, T., Cheligeer, C. and Walker, R., (2023). Health Data Governance for Research Use in Alberta. International Journal of Population Data Science, 8(4).
 
-![Bike Study](/assets/img/bike_study.jpeg)
-
-## Talks & Lectures
-- Causality: The new science of an old question - GSP Seminar, Fall 2021
-- Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
-- Guest Lecture: Fourier and Wavelet Transforms - Scientific Computing (PHYS 5315), Fall 2020
-- A Brief Introduction to Optimization - GSP Seminar, Fall 2019
-- Weeks of Welcome Poster Competition - UTD, Fall 2019
-- A Brief Introduction to Networks - GSP Seminar, Spring 2019
-
-- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
-
-## Publications
-1. Talebi S., Lary D.J., Wijeratne L. OH., and Lary, T. Modeling Autonomic Pupillary Responses from External Stimuli Using Machine Learning (2019). DOI: 10.26717/BJSTR.2019.20.003446
-2. Wijeratne, L.O.; Kiv, D.R.; Aker, A.R.; Talebi, S.; Lary, D.J. Using Machine Learning for the Calibration of Airborne Particulate Sensors. Sensors 2020, 20, 99.
-3. Lary, D.J.; Schaefer, D.; Waczak, J.; Aker, A.; Barbosa, A.; Wijeratne, L.O.H.; Talebi, S.; Fernando, B.; Sadler, J.; Lary, T.; Lary, M.D. Autonomous Learning of New Environments with a Robotic Team Employing Hyper-Spectral Remote Sensing, Comprehensive In-Situ Sensing and Machine Learning. Sensors 2021, 21, 2240. https://doi.org/10.3390/s21062240
-4. Zhang, Y.; Wijeratne, L.O.H.; Talebi, S.; Lary, D.J. Machine Learning for Light Sensor Calibration. Sensors 2021, 21, 6259. https://doi.org/10.3390/s21186259
-5. Talebi, S.; Waczak, J.; Fernando, B.; Sridhar, A.; Lary, D.J. Data-Driven EEG Band Discovery with Decision Trees. Preprints 2022, 2022030145 (doi: 10.20944/preprints202203.0145.v1).
-6. Fernando, B.A.; Sridhar, A.; Talebi, S.; Waczak, J.; Lary, D.J. Unsupervised Blink Detection Using Eye Aspect Ratio Values. Preprints 2022, 2022030200 (doi: 10.20944/preprints202203.0200.v1).
-7. Talebi, S. et al. Decoding Physical and Cognitive Impacts of PM Concentrations at Ultra-fine Scales, 29 March 2022, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-1499191/v1]
-8. Lary, D.J. et al. (2022). Machine Learning, Big Data, and Spatial Tools: A Combination to Reveal Complex Facts That Impact Environmental Health. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_12
-9. Wijerante, L.O.H. et al. (2022). Advancement in Airborne Particulate Estimation Using Machine Learning. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_13
-
-- [Data Science Blog](https://medium.com/@shawhin)
