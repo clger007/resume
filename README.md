@@ -1,7 +1,4 @@
----
-layout: default
-title: Ken Cheligeer
----
+
 
 # Cheligeer (Ken) Cheligeer
 
