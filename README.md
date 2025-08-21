@@ -2,7 +2,7 @@
 
 **CHELIGEER, Ph.D.**  
 Calgary, Canada  
-[Email Address] | [Phone Number] | [LinkedIn Profile or ORCID iD]
+[cheligeerken@gmail.com]  | []
 
 ---
 
