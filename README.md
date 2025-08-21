@@ -2,7 +2,7 @@
 
 **CHELIGEER, Ph.D.**  
 Calgary, Canada  
-[cheligeerken@gmail.com]  | []
+[cheligeerken@gmail.com] 
 
 ---
 
